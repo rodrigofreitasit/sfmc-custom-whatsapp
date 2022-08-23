@@ -1,0 +1,78 @@
+{
+  "workflowApiVersion": "1.1",
+  "metaData": {
+    "icon": "images/logo_code.png",
+    "iconSmall": "images/logo_code.png",
+    "category": "message"
+  },
+  "type": "REST",
+  "lang": {
+    "en-US": {
+      "name": "POC Custom Activity",
+      "description": "POC Custom Activity"
+    },
+    "pt-BR": {
+      "name": "POC Custom Activity",
+      "description": "POC Custom Activity"
+    }
+  },
+  "arguments": {
+    "execute": {
+      "inArguments": [],
+      "outArguments": [],
+      "url": "https://ca-poc-sfmc.herokuapp.com/journeybuilder/execute",
+      "verb": "POST",
+      "body": "",
+      "header": "",
+      "format": "json",
+      "useJwt": true,
+      "timeout": 10000
+    }
+  },
+  "configurationArguments": {
+    "applicationExtensionKey": "3be0bd5c-c8d2-4e7c-8b22-56a4015e54e3",
+    "save": {
+      "url": "https://ca-poc-sfmc.herokuapp.com/journeybuilder/save",
+      "verb": "POST",
+      "useJwt": true
+    },
+    "publish": {
+      "url": "https://ca-poc-sfmc.herokuapp.com/journeybuilder/publish",
+      "verb": "POST",
+      "useJwt": true
+    },
+    "validate": {
+      "url": "https://ca-poc-sfmc.herokuapp.com/journeybuilder/validate",
+      "verb": "POST",
+      "useJwt": true
+    },
+    "stop": {
+      "url": "https://ca-poc-sfmc.herokuapp.com/journeybuilder/stop",
+      "verb": "POST",
+      "useJwt": true
+    }
+  },
+  "wizardSteps": [
+    {
+      "label": "Step 1",
+      "key": "step1"
+    },
+    {
+      "label": "Step 2",
+      "key": "step2"
+    }
+  ],
+  "userInterfaces": {
+    "configModal": {
+      "fullscreen": true
+    }
+  },
+  "schema": {
+    "arguments": {
+      "execute": {
+        "inArguments": [],
+        "outArguments": []
+      }
+    }
+  }
+}
