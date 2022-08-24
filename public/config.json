@@ -20,7 +20,7 @@
     "execute": {
       "inArguments": [],
       "outArguments": [],
-      "url": "https://ca-poc-sfmc.herokuapp.com/journeybuilder/execute",
+      "url": "https://sfmc-custom-whatsapp.herokuapp.com/journeybuilder/execute",
       "verb": "POST",
       "body": "",
       "header": "",
@@ -32,22 +32,22 @@
   "configurationArguments": {
     "applicationExtensionKey": "3be0bd5c-c8d2-4e7c-8b22-56a4015e54e3",
     "save": {
-      "url": "https://ca-poc-sfmc.herokuapp.com/journeybuilder/save",
+      "url": "https://sfmc-custom-whatsapp.herokuapp.com/journeybuilder/save",
       "verb": "POST",
       "useJwt": true
     },
     "publish": {
-      "url": "https://ca-poc-sfmc.herokuapp.com/journeybuilder/publish",
+      "url": "https://sfmc-custom-whatsapp.herokuapp.com/journeybuilder/publish",
       "verb": "POST",
       "useJwt": true
     },
     "validate": {
-      "url": "https://ca-poc-sfmc.herokuapp.com/journeybuilder/validate",
+      "url": "https://sfmc-custom-whatsapp.herokuapp.com/journeybuilder/validate",
       "verb": "POST",
       "useJwt": true
     },
     "stop": {
-      "url": "https://ca-poc-sfmc.herokuapp.com/journeybuilder/stop",
+      "url": "https://sfmc-custom-whatsapp.herokuapp.com/journeybuilder/stop",
       "verb": "POST",
       "useJwt": true
     }

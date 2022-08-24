@@ -215,7 +215,7 @@
 
   function onGetTokens(data) {
     console.log('tokens: ' + JSON.stringify(data));
-    authTokens = data;
+    return authTokens = data;
   }
 
   // function onGetEndpoints(endpoints) {
@@ -315,5 +315,5 @@
       zip.value = dataPayload.zip;
     }
   }
-  module.onGetTokens = GetTokens;
+  module.onGetTokens = onGetTokens;
 }
