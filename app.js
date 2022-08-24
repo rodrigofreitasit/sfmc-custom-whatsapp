@@ -26,7 +26,7 @@ app.use(express.static(path.join(__dirname + '/public')));
 app.use('/', router);
 console.log('GetTokens: ', authTokens)
 if (!authTokens) {
-    console.log('no if: ', authTokens)
+    console.log('if: ', authTokens)
 } else {
     console.log('else: ', authTokens)
 }
