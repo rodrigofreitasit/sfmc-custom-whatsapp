@@ -1,5 +1,5 @@
 'use strict';
-define(function (require) {
+(require) => {
   var Postmonger = require('postmonger');
   var connection = new Postmonger.Session();
 
@@ -316,4 +316,4 @@ define(function (require) {
     }
   }
   module.onGetTokens = onGetTokens;
-})
+}
